@@ -11,7 +11,7 @@
 ## case you would like to alter it for your own    ##
 ## usages.  I hope this helps you out!!            ##
 #####################################################
-
+#!/bin/bash
 
 echo "Enter your csv file with full location (example \"input.txt\" or \"~/location/input.txt\"):"
 read csvinput
