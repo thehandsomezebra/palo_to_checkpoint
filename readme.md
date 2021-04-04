@@ -31,6 +31,17 @@ _Note: There isn't any error handling for the inputs.. but also, it won't automa
 
 ----
 
+### Notes for Windows Users:
+
+## Option 1: Using Git for Windows (which provides bash!)  *RECOMMENDED*
+Make sure you have [Git for Windows](https://gitforwindows.org/) installed. The default settings will give you bash! This is SUPER easy, and it's the method that I'd recommend.
+
+
+### Option 2: Using WSL & Powershell
 This _should_ also work if you are using PowerShell where WSL is enabled.  
 If you're running windows (and you can't use wget), [you can download the script by right clicking here and choosing Save File.](https://raw.githubusercontent.com/thehandsomezebra/palo_to_checkpoint/main/conversion.sh)
-From there, you should be able to just jump into your [bash-enabled PowerShell environment](https://itsfoss.com/install-bash-on-windows/) and run it.
+From there, you should be able to just jump into your [bash-enabled PowerShell environment](https://itsfoss.com/install-bash-on-windows/) and run it. 
+
+I haven't specifically tested Option 2, because in my Windows environments, I went with Option 1 with _Git for Windows_ installed and it just *works*.  I know that this might not be typical in your circumstance (due to security/policy/etc).. so I may investigate other methods in the future.
+
+----
